@@ -2,24 +2,24 @@
 </h1>
 
 
- ### ♦ Imagem Gabarito
+ ## ♦ Imagem Gabarito
 
-<img src="./src/assets/img/img-gabarito.jpg" alt="img gabarito"></img>
+<img src="./src/assets/img/img-gabarito.png" alt="img gabarito"></img>
 
 
-## 📖 Descrição do Projeto
+# 📖 Descrição do Projeto
 
 Este projeto implementa um sistema completo de monitoramento ambiental para a Vinheria Agnello, focando no controle da luminosidade, temperatura e umidade. Utilizando sensores DHT11 e um display LCD, o sistema monitora em tempo real as condições ambientais, alertando os proprietários sobre níveis críticos por meio de LEDs e um buzzer. A solução garante a preservação da qualidade dos vinhos, prevenindo danos causados por oscilações de temperatura, umidade inadequada e exposição 
 
 
-## 🎯 Objetivo
+# 🎯 Objetivo
 
 - **Monitorar os níveis de luminosidade, temperatura e umidade** no ambiente da adega;
 - **Informar os dados ao usuário em tempo real** através de um display LCD;
 - **Emitir alertas visuais e sonoros** quando os parâmetros ambientais estiverem fora das condições ideais para conservação do vinho.
 
 
-## 🔧 Funcionalidades Implementadas
+# 🔧 Funcionalidades Implementadas
 
 1. **Luminosidade:**
    - Escuro: LED verde aceso.
@@ -41,7 +41,7 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
    - Atualização dos dados no display a cada **5 segundos** usando `millis()`.
 
 
-## 📜 Componentes Utilizados
+# 📜 Componentes Utilizados
 
 - 1x Sensor de temperatura e umidade **DHT11**
 - 1x Sensor de luminosidade (fotoresistor / LDR)
@@ -56,7 +56,7 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
 > ⚠️ Observação: foi usado o **sensor DHT22** na simulação por limitações da plataforma.
 
 
-# Como Reproduzir o Projeto
+# 🔃 Como Reproduzir o Projeto
 
 ## 📜 Componentes Necessários
 
@@ -69,7 +69,6 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
 - **Resistores**
 - **Protoboard** e **Jumpers**
 
----
 
 ## 🔌 Montagem do Circuito
 
@@ -78,7 +77,6 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
 3. Conecte os **LEDs** nos pinos digitais **D3**, **D4** e **D5**.
 4. Conecte o **buzzer** no pino digital **D6**.
 
----
 
 ## 💻 Código e Programação
 
@@ -91,9 +89,6 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
    - `Adafruit_Sensor.h`
  
 
----
-
-
 ## ✅ Testes e Verificação
 
 - Verifique as **leituras no display LCD**.
@@ -101,7 +96,6 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
   - LEDs indicativos
   - Sinal sonoro do buzzer
 
----
 
 ## ⚙️ Ajustes e Calibração
 
@@ -110,21 +104,20 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
   - **Umidade**
   - **Luminosidade**
 
----
 
 > 💡 Dica: Certifique-se de utilizar uma fonte de alimentação confiável para evitar variações nos sensores e alertas.
 
 
-## 📎 Links
+# 📎 Links
 
-🎥 Acesse o vídeo com a explicação do projeto: [Video Explicativo](https://youtube.com/seu-link-aqui) <br>
+🎥 Acesse o vídeo com a explicação do projeto: [Video Explicativo](https://www.youtube.com/watch?v=vyE2ttXUoLw) <br>
 
-🎥 Acesse o vídeo com a simulação do projeto: [Video Simulação](https://youtube.com/seu-link-aqui)
+🎥 Acesse o vídeo com a simulação do projeto: [Video Simulação](https://www.youtube.com/watch?v=DGqpybvd_rc)
 
 📎 Acesse o projeto no Wokwi: [link para o projeto](https://wokwi.com/projects/431137025387535361)
 
 
-## 📋 Desafios e Soluções
+# 📋 Desafios e Soluções
 
 - **DHT11 fora do Tinkercad**: foi necessário usar o Wokwi e adaptar para o DHT22.
 - **Precisão da média dos sensores**: implementação de arrays para armazenar múltiplas leituras.
@@ -141,5 +134,5 @@ Este projeto implementa um sistema completo de monitoramento ambiental para a Vi
 
    O Código-fonte deste projeto está na pasta `/src` deste repositório. Está devidamente comentado para facilitar a compreensão da lógica e da integração com os sensores. <br>
 
-   Obrigado :)
+   Stratmount Advisory
 </div>
